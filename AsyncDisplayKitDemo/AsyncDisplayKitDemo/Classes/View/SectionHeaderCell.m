@@ -39,7 +39,7 @@
  */
 - (void)updateHomePageCellNodeWith {
     
-    self.goodsImageNode.defaultImage = [UIImage imageNamed:@"cooperation_title"];
+    self.goodsImageNode.URL = [NSURL URLWithString:@"https://www.baidu.com/img/bd_logo1.png"];
 }
 
 
